@@ -130,8 +130,12 @@ a {
 .projects {
     margin-bottom: 6rem;
     position: relative;
+    
 }
-
+.projects h2{
+text-align: center;
+margin-bottom: .5em;
+}
 .projects .section-head {
     margin-bottom: 1rem;
 }
@@ -171,6 +175,7 @@ a {
     font-size: .9rem;
     color: grey;
     text-align: left;
+    padding-inline: 2rem;
 }
 
 .proj-img {
