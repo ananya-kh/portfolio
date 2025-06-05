@@ -78,7 +78,6 @@ a {
     color: #6e57E0;
     padding-bottom: .5em;
 }
-
 #hero-icon {
     display: flex;
     flex-direction: column;
@@ -163,11 +162,6 @@ a {
     flex: 0 0 100%;
 }
 
-.proj-heading {
-    text-align: center;
-    margin-bottom: 1.5rem;
-}
-
 .proj-descr {
     display: flex;
     gap: 1rem;
@@ -191,7 +185,6 @@ a {
     cursor: pointer;
     text-decoration: none;
 }
-
 .carousel_button {
     cursor: pointer;
     margin: auto;
@@ -204,11 +197,9 @@ a {
     top: 50%;
     transform: translateY(-50%);
 }
-
 .carousel_button-right {
     right: 5%;
 }
-
 .carousel_button-left {
     left: 5%;
 }
@@ -251,7 +242,6 @@ footer p {
     font-size: .5rem;
     color: grey;
 }
-
 .bottom-nav {
     display: none;
 }
@@ -294,10 +284,7 @@ footer p {
 .about,
 .projects {
     min-height: 30vh;
-    display: flex;
-    flex-direction: column;
     padding-block: 4.5rem;
-    justify-content: center;
 }
 .contact{
     min-height:10vh ;
@@ -366,4 +353,84 @@ footer p {
     footer p {
         font-size: 0.6rem;
     }
+}
+@media screen and (min-width:1920px) {
+    body{
+        line-height:4rem;
+    }
+.hero,
+.about,
+.projects {
+    min-height: 90vh;
+    margin-bottom: 5rem;
+}
+.section-head{
+    font-size: 3.7rem;
+    padding-bottom: 1em;
+}
+.nav-bar{
+    font-size: 1.8rem;
+}
+.hero-box h2 {
+    font-size:3rem ;
+}
+.icon{
+    font-size: 2.4rem;
+}
+.hero-img{
+    max-width: 40vw;
+    max-height: 40vh;
+}
+.hero-box h4 {
+    font-size: 2rem;
+}
+.hero-para {
+    font-size: 1.7rem;
+}
+.about-me p {
+    font-size: 1.7rem;
+}
+.proj-heading {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+.projects {
+    margin-bottom: 7.5rem;
+}
+.proj-container {
+    max-width: 70vw;
+}
+.proj-heading {
+    font-size: 2.5rem;
+    margin-bottom: 1.7rem;
+}
+.proj-descr p {
+    font-size: 1.8rem;
+}
+.proj-img {
+    max-width: 30%;
+    margin-inline: 1rem;
+}
+
+.proj-demo {
+    font-size: 1.8rem;
+    padding: .4em;
+}
+.carousel_button{
+    font-size: 3rem;
+}
+.dot {
+    width: 20px;
+    height: 20px;
+    margin-top: 2rem;
+}
+.cont-container {
+    font-size: 2rem;
+}
+footer{
+    font-size: 1.7rem;
+}
+footer p {
+    font-size: 1.4rem;
+}
 }
